@@ -1,11 +1,9 @@
 name: first
-
 on: push
-
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - uses: hamzabinkhalid/github-actions-custom-action@main
     
